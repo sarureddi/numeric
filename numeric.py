@@ -1,6 +1,5 @@
-num=int(input("enter the value"))
-if:
-  val=int(num)
+num=input("enter the value")
+if(num.isdigit()):
   print("it is an integer")
 else
-  print(" It is not an integer")
+  print(" It is an string")
